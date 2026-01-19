@@ -42,4 +42,7 @@ mobile-automation-framework/
 
 └── pytest.ini                # Pytest configuration
 
+# *Step3: Configuration and Driver Factory*
+We need a centralized place to manage "Desired Capabilities" (device settings).
 
+**utils/driver_factory.py**
